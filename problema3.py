@@ -13,7 +13,8 @@ def insertaEnArbolTrinario(arbol,numero):
 
 
 w = []
+h = input().split(' ')
 
-for x in (20, 30, 90, 90, 8, 5, 90):
-    insertaEnArbolTrinario(w,x)
+for x in h:
+    insertaEnArbolTrinario(w,int(x))
 print(w)
